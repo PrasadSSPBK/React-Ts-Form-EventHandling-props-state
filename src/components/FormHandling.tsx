@@ -54,6 +54,8 @@ return (
                      <input type="text" name="last" id="last" required={true} placeholder="Last Name"  className="card-title" onChange={changeInputLast}/>
                      </div>
 <button type="submit" className="btn btn-primary m-3">Login</button>
+<p className="h3 text-dark p-2 fw-bold">{state.user.firstName}</p>
+<p className="h3 text-dark p-2 fw-bold">{state.user.lastName}</p>
                    
 </form>
                 </div>
